@@ -1,0 +1,50 @@
+.country {
+  fill: #e4e4e4;
+  stroke: #333333;
+  stroke-width: 0.5;
+}
+
+.overme {
+  fill: #4ea4e0;
+}
+
+svg {
+  background-color: #8e8e8e;
+}
+
+body {
+  background-color: #efeeee;
+}
+
+.line {
+  fill: none;
+  stroke: #5f0c0c;
+  stroke-width: 1px;
+}
+
+.figure1 {
+  margin-top: 2rem;
+}
+.figure2 {
+  margin-top: 2rem;
+}
+
+#desc{
+  display: none;
+}
+.homework {
+  color: #f3f3e6e6;
+}
+
+.card-extra {
+  margin-top: 2rem;
+  background-color: #8e8e8e;
+  width: 22rem;
+  max-width: 22rem;
+  height: 31rem;
+}
+
+.p-font{
+  color: #f1f1f1;
+  font-weight: 300;
+}

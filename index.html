@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Libraries -->
+    <script src="Lib/d3.js" type="text/javascript"></script>
+    <script src="Lib/d3-scale-chromatic.js" type="text/javascript"></script>
+    <script src="Lib/d3-legend.js"></script>
+    <script src="Lib/lodash.js" type="text/javascript"></script>
+    <script src="Lib/topojson.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="Lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Lib/font-awesome/css/font-awesome.min.css">
+    <!-- Custom -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- JS -->
+    <script src="js/controller.js" type="text/javascript"></script>
+    <title>World population</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light bg-dark">
+      <a class="homework" href="#">
+        Homework - 3
+      </a>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4"><i class="fa fa-bar-chart" aria-hidden="true"></i>Understanding the trends in world population.</h1>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-8">
+          <div class="float-left figure1" id='figure1'></div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card float-right card-extra">
+            <div class="card-body">
+              <p class="p-font"><i class="fa fa-check" aria-hidden="true"></i>The figure on the left shows the
+                population of different countries through color encoding.</p>
+              <p class="p-font"><i class="fa fa-check" aria-hidden="true"></i>As can be seen China and India occupies the top position with intense red color.</p>
+              <p class="p-font"><i class="fa fa-check" aria-hidden="true"></i>Hovering over any country displays the country name and population in millions.</p>
+              <p class="p-font"><i class="fa fa-check" aria-hidden="true"></i>Clicking over any country plots a new line chart with population from 1995 to 2017.</p>
+              <p class="p-font"><i class="fa fa-check" aria-hidden="true"></i>The visualization can also be zoomed and dragged.</p>
+              <p class="p-font"><i class="fa fa-check" aria-hidden="true"></i>Both of the visualization are made using D3.js</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <div class="float-left figure2" id='figure2'></div>
+        </div>
+        <div id="desc" class="col-md-4">
+          <div class="card float-right card-extra">
+            <div class="card-body">
+              <p class="p-font"><i class="fa fa-check" aria-hidden="true"></i>The figure on the left shows the population trends from the year 1995 to 2017.</p>
+              <p class="p-font"><i class="fa fa-check" aria-hidden="true"></i>Most of the countries shows the linear pattern with year being directly proportional to the population.</p>
+              <p class="p-font"><i class="fa fa-check" aria-hidden="true"></i>Germany & Russia however show a different kind of relationship between year and population. Both of them show quite a wavy pattern.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
